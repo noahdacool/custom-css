@@ -1,0 +1,107 @@
+/* default for all elements */
+body, * {
+  background-color: #000 !important;
+  color: #5F5 !important;
+}
+
+/* full page */
+html {
+  /* change scrollbar to theme colors */
+  scrollbar-color: #5F5 #000;
+  /* change scrollbar size */
+  scrollbar-width: thin;
+}
+
+/* Announcment page titles */
+.ic-item-row__content-link {
+  /* prevent blue outline on click */
+  outline: none; 
+}
+
+/* To Do Sidebar item titles */
+.css-9husc-view-link {
+  /* remove blue underline */
+  text-decoration: none !important;
+}
+
+/* notification badges */
+.css-5672v4-view--inlineBlock-badge, .css-soqhj8-view--inlineBlock-badge {
+  /* change to theme color */
+  background-color: #5F5 !important;
+}
+
+/* BetterCanvas overdue item */
+.bettercanvas-assignment-dueat.bettercanvas-assignment-overdue {
+  /* change to theme color */
+  background-color: #F55 !important;
+}
+
+/* Option buttons above To Do list */
+body.courses #main #right-side .button-sidebar-wide {
+  /* change to theme color */
+  color: #5F5 !important;
+}
+
+/* Left sidebar active item */
+#left-side #sticky-container #section-tabs .section .active {
+  /* change to theme color */
+  color: #5F5 !important;
+  /* move active shadow to left and change color */
+  border-left: 0.35em solid #00FF00;
+  border-right: none;
+}
+
+/* unread announcements in the modules page */
+/* outer box */
+.custom-announcement.unread  {
+  /* hide the blue line on the left */
+  box-shadow: none !important;
+}
+
+/* unread announcements in the modules page */
+/* inner box */
+.custom-announcement.unread * {
+  /* mark as unread */
+  color: #F55 !important;
+} 
+
+/* module headers */
+.ig-header-title:focus {
+  /* prevent size change on focus */
+  padding: 0 !important;
+  /* prevent outline on focus */
+  outline: none !important;
+}
+
+/* BetterCanvas update announcement text */
+#bettercanvas-update-msg p {
+  /* do not apply custom theme */
+  background-color: transparent !important;
+}
+
+/* buttons */
+.btn:not(.button-sidebar-wide),
+/* clicked buttons */
+.btn:not(.button-sidebar-wide):active {
+  /* redesign border */
+  border: 1px dashed;
+  border-radius: 100px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  /* change to theme color */
+  border-color: #000;
+  background-color: #5F5 !important;
+  color: #000 !important;
+}
+
+/* quiz choice buttons */
+.question_input {
+  /* make smaller */
+  width: 8px !important;
+}
+
+/* incorrect answer arrow */
+.answer_arrow.incorrect {
+  /* change text color */
+  color: #000 !important;
+}
