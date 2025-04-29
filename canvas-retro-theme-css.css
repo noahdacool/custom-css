@@ -4,8 +4,8 @@ body, * {
   color: #5F5 !important;
 }
 
-/* full page */
-html {
+/* all elements */
+* {
   /* change scrollbar to theme colors */
   scrollbar-color: #5F5 #000;
   /* change scrollbar size */
@@ -100,8 +100,34 @@ body.courses #main #right-side .button-sidebar-wide {
   width: 8px !important;
 }
 
+/* quiz question header */
+.question .header {
+  border-bottom: 1px solid #444;
+}
+
+/* quiz question answer choices */
+.question .answer {
+  border-top: 1px dashed #444 !important;
+}
+
+
 /* incorrect answer arrow */
 .answer_arrow.incorrect {
   /* change text color */
   color: #000 !important;
+}
+
+/* unread item dot */
+.unread_dot {
+  background-color: #F55 !important;
+}
+
+/* alternative to bold, colored text */
+p span strong {
+  font-weight: normal;
+}
+p:has(span strong) {
+  border-left: 2px solid #5F5;
+  padding-left: 10px;
+  text-align: left !important;
 }
